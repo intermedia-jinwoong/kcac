@@ -2,8 +2,8 @@
 	"name" : "Algorithimic_Composition_Library_By_JinwoongKim",
 	"version" : 1,
 	"creationdate" : 3714891088,
-	"modificationdate" : 3720631354,
-	"viewrect" : [ 422.0, 529.0, 367.0, 765.0 ],
+	"modificationdate" : 3722273387,
+	"viewrect" : [ 674.0, 329.0, 367.0, 795.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -46,6 +46,16 @@
 				"local" : 1
 			}
 ,
+			"kcac.transpositional_symmetry.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"kcac.generate_notes_by_pitch_range.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"kcac.n-cycle.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
@@ -68,11 +78,6 @@
 ,
 			"kcac.n-cycle.maxhelp" : 			{
 				"kind" : "helpfile",
-				"local" : 1
-			}
-,
-			"kcac.generate_notes_by_pitch_range.maxpat" : 			{
-				"kind" : "patcher",
 				"local" : 1
 			}
 ,
@@ -146,12 +151,17 @@
 				"local" : 1
 			}
 ,
-			"kcac.transpositional_symmetry.maxpat" : 			{
+			"kcac.transpositional_symmetry.maxhelp" : 			{
+				"kind" : "helpfile",
+				"local" : 1
+			}
+,
+			"kcac.common_tones_under_inversion.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"kcac.transpositional_symmetry.maxhelp" : 			{
+			"kcac.common_tones_under_inversion.maxhelp" : 			{
 				"kind" : "helpfile",
 				"local" : 1
 			}
