@@ -2,8 +2,8 @@
 	"name" : "Algorithimic_Composition_Library_By_JinwoongKim",
 	"version" : 1,
 	"creationdate" : 3714891088,
-	"modificationdate" : 3722273387,
-	"viewrect" : [ 674.0, 329.0, 367.0, 795.0 ],
+	"modificationdate" : 3722880901,
+	"viewrect" : [ 285.0, 563.0, 367.0, 771.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -162,6 +162,16 @@
 			}
 ,
 			"kcac.common_tones_under_inversion.maxhelp" : 			{
+				"kind" : "helpfile",
+				"local" : 1
+			}
+,
+			"kcac.inversional_symmetry.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"kcac.inversional_symmetry.maxhelp" : 			{
 				"kind" : "helpfile",
 				"local" : 1
 			}
