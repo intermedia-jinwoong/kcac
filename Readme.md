@@ -1,3 +1,3 @@
 # kcac
 
-`kcac` is algorithmic composition tools based on Max and bach.
+`kcac` is Max/MSP abstractions for algorithmic composition based on Max and bach.
