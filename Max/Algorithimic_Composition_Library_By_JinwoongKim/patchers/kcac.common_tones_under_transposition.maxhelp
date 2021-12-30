@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 999.0, 528.0, 627.0, 392.0 ],
+		"rect" : [ 1506.0, 185.0, 701.0, 376.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,12 +40,36 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 10.0, 53.0, 625.0, 20.0 ],
+					"text" : "kcac.common_tones_under_transposition outputs the common tones vector under the \"n\" pitch-class transposition."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Ableton Sans Light",
+					"fontsize" : 24.0,
+					"id" : "obj-4",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 10.0, 11.0, 451.0, 35.0 ],
+					"text" : "kcac.common_tones_under_transposition"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bubble" : 1,
 					"id" : "obj-9",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 210.0, 297.0, 211.0, 26.0 ],
+					"patching_rect" : [ 196.0, 293.0, 211.0, 26.0 ],
 					"text" : "common pitch class > 2, 4 > 2개"
 				}
 
@@ -61,7 +85,7 @@
 					"numoutlets" : 5,
 					"out" : "nnnn",
 					"outlettype" : [ "", "", "", "", "bang" ],
-					"patching_rect" : [ 24.0, 297.0, 181.350428640842438, 25.735042154788971 ],
+					"patching_rect" : [ 10.0, 293.0, 181.350428640842438, 25.735042154788971 ],
 					"versionnumber" : 80100,
 					"whole_tree_data_0000000000" : [ 2, 4, 6, 10 ],
 					"whole_tree_data_count" : [ 1 ]
@@ -75,7 +99,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 24.0, 202.0, 115.0, 22.0 ],
+					"patching_rect" : [ 10.0, 251.0, 115.0, 22.0 ],
 					"text" : "kcac.pcTranspose 2"
 				}
 
@@ -87,7 +111,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 371.0, 155.0, 211.0, 91.0 ],
+					"patching_rect" : [ 357.0, 190.0, 211.0, 91.0 ],
 					"text" : "T1 또는 T11 하면 공통음 0개\nT2 또는 T10 하면 공통음 2개\n\n...\n\nT6 하면 공통음 2개 나온다."
 				}
 
@@ -272,7 +296,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 174.000000381000518, 110.5, 241.0, 22.0 ],
+					"patching_rect" : [ 160.000000381000518, 145.5, 241.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -295,7 +319,7 @@
 					"numoutlets" : 5,
 					"out" : "nnnn",
 					"outlettype" : [ "", "", "", "", "bang" ],
-					"patching_rect" : [ 174.000000381000518, 155.0, 181.350428640842438, 25.735042154788971 ],
+					"patching_rect" : [ 160.000000381000518, 190.0, 181.350428640842438, 25.735042154788971 ],
 					"versionnumber" : 80100,
 					"whole_tree_data_0000000000" : [ 0, 2, 0, 3, 0, 2 ],
 					"whole_tree_data_count" : [ 1 ]
@@ -309,7 +333,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 228.000000381000518, 65.0, 119.5, 24.0 ],
+					"patching_rect" : [ 59.000000381000518, 99.0, 119.5, 24.0 ],
 					"text" : "pitch class set"
 				}
 
@@ -321,7 +345,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 24.000000381000518, 31.0, 45.0, 22.0 ],
+					"patching_rect" : [ 10.0, 100.0, 45.0, 22.0 ],
 					"text" : "0 2 4 8"
 				}
 
@@ -360,22 +384,22 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "bach.times.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Algorithimic_Composition_Library_By_JinwoongKim/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "kcac.pcTranspose.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Algorithimic_Composition_Library_By_JinwoongKim/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/Max 8/Packages/Algorithimic_Composition_Library_By_JinwoongKim/_ConsolidateTemp/patchers",
+				"patcherrelativepath" : "../_ConsolidateTemp/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bach.+.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Algorithimic_Composition_Library_By_JinwoongKim/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}

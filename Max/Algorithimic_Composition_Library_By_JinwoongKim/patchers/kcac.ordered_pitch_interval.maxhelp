@@ -40,11 +40,13 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Light",
+					"fontsize" : 24.0,
 					"id" : "obj-14",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 24.0, 11.5, 191.0, 20.0 ],
+					"patching_rect" : [ 24.0, 11.5, 376.0, 35.0 ],
 					"text" : "kcac.ordered_pitch_interval"
 				}
 
@@ -55,7 +57,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 24.0, 38.0, 306.0, 22.0 ],
+					"patching_rect" : [ 24.0, 65.0, 306.0, 22.0 ],
 					"text" : "피치음정에서 방향과 사이즈를 모두 고려한 음정을 계산"
 				}
 

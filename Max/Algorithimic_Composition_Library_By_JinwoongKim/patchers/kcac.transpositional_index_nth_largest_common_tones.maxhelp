@@ -40,12 +40,37 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-6",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 19.0, 58.0, 611.0, 48.0 ],
+					"text" : "kcac.transpositional_index_nth_largest_common_tones outputs transpositional index and the number of common tone under the transposition.\nHe or she can use this object to know which transposition index has the largest common tones."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Ableton Sans Light",
+					"fontsize" : 24.0,
+					"id" : "obj-4",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 19.0, 11.0, 616.0, 35.0 ],
+					"text" : "kcac.transpositional_index_nth_largest_common_tones"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bubble" : 1,
 					"id" : "obj-2",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 366.0, 125.0, 208.0, 26.0 ],
+					"patching_rect" : [ 345.0, 182.0, 208.0, 26.0 ],
 					"text" : "n 번째로 큰 공통 피치클래스 개수"
 				}
 
@@ -56,7 +81,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 272.324785679578781, 217.0, 150.0, 20.0 ],
+					"patching_rect" : [ 251.324785679578781, 274.0, 150.0, 20.0 ],
 					"text" : "number of common tones"
 				}
 
@@ -67,7 +92,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 40.0, 217.0, 150.0, 20.0 ],
+					"patching_rect" : [ 19.0, 274.0, 150.0, 20.0 ],
 					"text" : "transpositional index"
 				}
 
@@ -83,7 +108,7 @@
 					"numoutlets" : 5,
 					"out" : "nnnn",
 					"outlettype" : [ "", "", "", "", "bang" ],
-					"patching_rect" : [ 300.0, 171.820519030094147, 47.0, 30.0 ],
+					"patching_rect" : [ 279.0, 228.820519030094147, 47.0, 30.0 ],
 					"versionnumber" : 80100,
 					"whole_tree_data_0000000000" : [ 3 ],
 					"whole_tree_data_count" : [ 1 ]
@@ -101,7 +126,7 @@
 					"numoutlets" : 5,
 					"out" : "nnnn",
 					"outlettype" : [ "", "", "", "", "bang" ],
-					"patching_rect" : [ 599.0, 169.820519030094147, 163.0, 34.0 ],
+					"patching_rect" : [ 578.0, 226.820519030094147, 163.0, 34.0 ],
 					"versionnumber" : 80100,
 					"whole_tree_data_0000000000" : [ 0, 2, 0, 3, 0, 2 ],
 					"whole_tree_data_count" : [ 1 ]
@@ -115,7 +140,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 599.0, 125.0, 231.0, 22.0 ],
+					"patching_rect" : [ 578.0, 182.0, 231.0, 22.0 ],
 					"text" : "kcac.common_tones_under_transposition"
 				}
 
@@ -127,7 +152,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 40.0, 125.0, 314.0, 22.0 ],
+					"patching_rect" : [ 19.0, 182.0, 314.0, 22.0 ],
 					"text" : "kcac.transpositional_index_nth_largest_common_tones 1"
 				}
 
@@ -143,7 +168,7 @@
 					"numoutlets" : 5,
 					"out" : "nnnn",
 					"outlettype" : [ "", "", "", "", "bang" ],
-					"patching_rect" : [ 40.0, 171.820519030094147, 119.0, 32.0 ],
+					"patching_rect" : [ 19.0, 228.820519030094147, 119.0, 32.0 ],
 					"versionnumber" : 80100,
 					"whole_tree_data_0000000000" : [ 4 ],
 					"whole_tree_data_count" : [ 1 ]
@@ -157,7 +182,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 94.0, 84.0, 119.5, 24.0 ],
+					"patching_rect" : [ 73.0, 141.0, 119.5, 24.0 ],
 					"text" : "pitch class set"
 				}
 
@@ -169,7 +194,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 40.0, 84.0, 45.0, 22.0 ],
+					"patching_rect" : [ 19.0, 141.0, 45.0, 22.0 ],
 					"text" : "0 2 4 8"
 				}
 
@@ -229,8 +254,8 @@
 			}
 , 			{
 				"name" : "bach.times.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Algorithimic_Composition_Library_By_JinwoongKim/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}

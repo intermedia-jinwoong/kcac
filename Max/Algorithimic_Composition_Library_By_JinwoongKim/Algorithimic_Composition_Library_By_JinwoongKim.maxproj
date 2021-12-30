@@ -2,11 +2,11 @@
 	"name" : "Algorithimic_Composition_Library_By_JinwoongKim",
 	"version" : 1,
 	"creationdate" : 3714891088,
-	"modificationdate" : 3722880901,
-	"viewrect" : [ 285.0, 563.0, 367.0, 771.0 ],
+	"modificationdate" : 3723286420,
+	"viewrect" : [ 8.0, 72.0, 367.0, 880.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
-	"showdependencies" : 1,
+	"showdependencies" : 0,
 	"autolocalize" : 0,
 	"contents" : 	{
 		"patchers" : 		{
@@ -37,11 +37,6 @@
 			}
 ,
 			"kcac.common_tones_under_transposition.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"kcac.pcTranspose.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -131,16 +126,6 @@
 				"local" : 1
 			}
 ,
-			"kcac.pcInverse.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"kcac.pcTranspose.maxhelp" : 			{
-				"kind" : "helpfile",
-				"local" : 1
-			}
-,
 			"kcac.common_tones_under_transposition.maxhelp" : 			{
 				"kind" : "helpfile",
 				"local" : 1
@@ -175,10 +160,46 @@
 				"kind" : "helpfile",
 				"local" : 1
 			}
-
-		}
 ,
-		"externals" : 		{
+			"kcac.invert_pitchclass.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"kcac.invert_pitchclass.maxhelp" : 			{
+				"kind" : "helpfile",
+				"local" : 1
+			}
+,
+			"kcac.transpose_pitchclass.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"kcac.transpose_pitchclass.maxhelp" : 			{
+				"kind" : "helpfile",
+				"local" : 1
+			}
+,
+			"kcac.invert_pitches.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"kcac.invert_pitches.maxhelp" : 			{
+				"kind" : "helpfile",
+				"local" : 1
+			}
+,
+			"kcac.distinct_sets.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"kcac.distinct_sets.maxhelp" : 			{
+				"kind" : "helpfile",
+				"local" : 1
+			}
 
 		}
 
@@ -197,6 +218,6 @@
 	"readonly" : 0,
 	"devpathtype" : 0,
 	"devpath" : ".",
-	"sortmode" : 0,
+	"sortmode" : 1,
 	"viewmode" : 0
 }

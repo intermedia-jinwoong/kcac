@@ -40,13 +40,38 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-10",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 13.0, 62.0, 478.0, 34.0 ],
+					"text" : "kcac.transpositional_symmetry outputs levels of transpositional symmetry of given input pitch-class set and its degree of transpositional symmetry."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Ableton Sans Light",
+					"fontsize" : 24.0,
+					"id" : "obj-3",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 13.0, 12.0, 335.0, 35.0 ],
+					"text" : "kcac.transpositional_symmetry"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-9",
 					"maxclass" : "number",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 267.0, 133.0, 50.0, 22.0 ]
+					"patching_rect" : [ 273.0, 245.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -57,8 +82,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 40.0, 137.0, 127.0, 22.0 ],
-					"text" : "0 3 6 9"
+					"patching_rect" : [ 46.0, 249.0, 127.0, 22.0 ],
+					"text" : "0 4 8"
 				}
 
 			}
@@ -68,7 +93,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 322.666667491197586, 28.666667878627777, 94.333331674337387, 20.0 ],
+					"patching_rect" : [ 328.666667491197586, 140.666667878627777, 94.333331674337387, 20.0 ],
 					"text" : "pitch-class set",
 					"textjustification" : 1
 				}
@@ -81,8 +106,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 219.666672885417938, 166.0, 152.0, 34.0 ],
-					"presentation_linecount" : 3,
+					"patching_rect" : [ 225.666672885417938, 278.0, 152.0, 34.0 ],
 					"text" : "(int) degree of transpositional symmetry ",
 					"textjustification" : 1
 				}
@@ -95,8 +119,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 24.500000983476639, 166.0, 157.999998033046722, 34.0 ],
-					"presentation_linecount" : 3,
+					"patching_rect" : [ 30.500000983476639, 278.0, 157.999998033046722, 34.0 ],
 					"text" : "(list) levels of transpositional symmetry",
 					"textjustification" : 1
 				}
@@ -109,7 +132,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 228.666672885417938, 28.666667878627777, 85.0, 22.0 ],
+					"patching_rect" : [ 234.666672885417938, 140.666667878627777, 85.0, 22.0 ],
 					"text" : "0 1 2 3 6 7 8 9"
 				}
 
@@ -121,7 +144,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 163.000003814697266, 28.666667878627777, 45.0, 22.0 ],
+					"patching_rect" : [ 169.000003814697266, 140.666667878627777, 45.0, 22.0 ],
 					"text" : "0 3 6 9"
 				}
 
@@ -133,7 +156,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 113.000002771615982, 28.666667878627777, 35.0, 22.0 ],
+					"patching_rect" : [ 119.000002771615982, 140.666667878627777, 35.0, 22.0 ],
 					"text" : "0 4 8"
 				}
 
@@ -145,7 +168,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 113.0, 81.0, 173.0, 22.0 ],
+					"patching_rect" : [ 119.0, 193.0, 173.0, 22.0 ],
 					"text" : "kcac.transpositional_symmetry"
 				}
 
@@ -203,8 +226,8 @@
 			}
 , 			{
 				"name" : "bach.times.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Algorithimic_Composition_Library_By_JinwoongKim/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}

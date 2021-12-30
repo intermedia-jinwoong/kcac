@@ -489,9 +489,9 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "(int) degree of transpositional symmetry ",
 					"id" : "obj-9",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -501,9 +501,9 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "(list) levels of transpositional symmetry",
 					"id" : "obj-8",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -515,7 +515,7 @@
 				"box" : 				{
 					"comment" : "pitch-class set",
 					"id" : "obj-7",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -531,8 +531,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 152.800002425909042, 522.20001608133316, 83.999998033046722, 48.0 ],
-					"presentation_linecount" : 3,
+					"patching_rect" : [ 152.800002425909042, 522.20001608133316, 87.0, 48.0 ],
 					"text" : "(int) degree of transpositional symmetry ",
 					"textjustification" : 1
 				}
@@ -546,7 +545,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 30.166667565703392, 522.20001608133316, 83.999998033046722, 48.0 ],
-					"presentation_linecount" : 3,
 					"text" : "(list) levels of transpositional symmetry",
 					"textjustification" : 1
 				}
@@ -670,94 +668,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "kcac.common_tones_under_transposition.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Algorithimic_Composition_Library_By_JinwoongKim/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "bach.times.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Algorithimic_Composition_Library_By_JinwoongKim/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "bach.prepend.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../bach/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "bach.ivec.mxe64",
-				"type" : "mx64"
-			}
-, 			{
-				"name" : "bach.nth.mxe64",
-				"type" : "mx64"
-			}
-, 			{
-				"name" : "bach.expr.mxe64",
-				"type" : "mx64"
-			}
-, 			{
-				"name" : "bach.portal.mxe64",
-				"type" : "mx64"
-			}
-, 			{
-				"name" : "bach.args.mxe64",
-				"type" : "mx64"
-			}
-, 			{
-				"name" : "bach.subs.mxe64",
-				"type" : "mx64"
-			}
-, 			{
-				"name" : "bach.tree.mxe64",
-				"type" : "mx64"
-			}
-, 			{
-				"name" : "bach.length.mxe64",
-				"type" : "mx64"
-			}
-, 			{
-				"name" : "bach.thin.mxe64",
-				"type" : "mx64"
-			}
-, 			{
-				"name" : "bach.join.mxe64",
-				"type" : "mx64"
-			}
-, 			{
-				"name" : "bach.reg.mxe64",
-				"type" : "mx64"
-			}
-, 			{
-				"name" : "bach.wrap.mxe64",
-				"type" : "mx64"
-			}
-, 			{
-				"name" : "bach.find.mxe64",
-				"type" : "mx64"
-			}
-, 			{
-				"name" : "bach.flat.mxe64",
-				"type" : "mx64"
-			}
-, 			{
-				"name" : "bach.iter.mxe64",
-				"type" : "mx64"
-			}
-, 			{
-				"name" : "bach.collect.mxe64",
-				"type" : "mx64"
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }

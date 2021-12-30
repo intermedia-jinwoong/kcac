@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1351.0, 327.0, 1511.0, 959.0 ],
+		"rect" : [ 1319.0, 456.0, 1064.0, 653.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,12 +40,25 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Light",
+					"fontsize" : 24.0,
+					"id" : "obj-5",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 9.0, 8.0, 576.0, 35.0 ],
+					"text" : "kcac.generate_pitch_sequence_by_curve_and_pcset"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-33",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 539.0, 206.5, 127.0, 36.0 ],
+					"patching_rect" : [ 523.0, 256.5, 127.0, 36.0 ],
 					"text" : "참고: 두 개의 프로파일을 섞는 전략"
 				}
 
@@ -57,7 +70,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 139.5, 165.5, 45.0, 22.0 ],
+					"patching_rect" : [ 123.5, 215.5, 45.0, 22.0 ],
 					"text" : "0 1 4 6"
 				}
 
@@ -69,7 +82,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 55.0, 260.0, 104.0, 24.0 ],
+					"patching_rect" : [ 39.0, 310.0, 104.0, 24.0 ],
 					"text" : "(4) generate!!"
 				}
 
@@ -83,7 +96,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 60.5, 297.5, 50.0, 22.0 ]
+					"patching_rect" : [ 44.5, 347.5, 50.0, 22.0 ]
 				}
 
 			}
@@ -94,7 +107,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 111.25, 295.5, 129.5, 26.0 ],
+					"patching_rect" : [ 95.25, 345.5, 129.5, 26.0 ],
 					"text" : "(3) 피치의 개수"
 				}
 
@@ -107,8 +120,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 187.5, 209.0, 129.5, 38.0 ],
-					"presentation_linecount" : 4,
+					"patching_rect" : [ 171.5, 259.0, 129.5, 38.0 ],
 					"text" : "(3) minimum pitch\n     maximum pitch"
 				}
 
@@ -120,7 +132,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 187.5, 139.5, 119.5, 24.0 ],
+					"patching_rect" : [ 171.5, 189.5, 119.5, 24.0 ],
 					"text" : "(2) pitch class set"
 				}
 
@@ -132,7 +144,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 391.0, 171.5, 35.0, 22.0 ],
+					"patching_rect" : [ 375.0, 221.5, 35.0, 22.0 ],
 					"text" : "clear"
 				}
 
@@ -144,7 +156,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 364.0, 139.5, 281.0, 26.0 ],
+					"patching_rect" : [ 348.0, 189.5, 281.0, 26.0 ],
 					"text" : "(1) 멜로디 형태를 function 오브젝트로 전달"
 				}
 
@@ -156,7 +168,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "clear" ],
-					"patching_rect" : [ 320.0, 171.5, 51.0, 22.0 ],
+					"patching_rect" : [ 304.0, 221.5, 51.0, 22.0 ],
 					"text" : "t s clear"
 				}
 
@@ -168,7 +180,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 320.0, 139.5, 39.0, 22.0 ],
+					"patching_rect" : [ 304.0, 189.5, 39.0, 22.0 ],
 					"text" : "dump"
 				}
 
@@ -183,7 +195,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "float", "", "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 320.0, 206.5, 200.0, 100.0 ]
+					"patching_rect" : [ 304.0, 256.5, 200.0, 100.0 ]
 				}
 
 			}
@@ -194,7 +206,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 320.0, 101.5, 337.5, 36.0 ],
+					"patching_rect" : [ 304.0, 151.5, 337.5, 36.0 ],
 					"text" : "주의: function의 domain과 range는 반드시 0~1 사이의 소수여야 한다.",
 					"textcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
 				}
@@ -207,7 +219,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 25.0, 14.166666984558105, 410.000007748603821, 36.0 ],
+					"patching_rect" : [ 9.0, 64.166666984558105, 410.000007748603821, 36.0 ],
 					"text" : "주어진 피치클래스에 따라 피치 시퀀스를 생성하는 오브젝트. 피치는 function 오브젝트로 만든 curve 모양에 따라 만들어 진다."
 				}
 
@@ -674,7 +686,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 539.0, 244.5, 121.0, 22.0 ],
+					"patching_rect" : [ 523.0, 294.5, 121.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -697,7 +709,7 @@
 					"numoutlets" : 5,
 					"out" : "nnnn",
 					"outlettype" : [ "", "", "", "", "bang" ],
-					"patching_rect" : [ 25.0, 397.5, 690.5, 20.0 ],
+					"patching_rect" : [ 9.0, 447.5, 690.5, 20.0 ],
 					"versionnumber" : 80100,
 					"whole_tree_data_0000000000" : [ 6600, 6600, 6400, 6000, 5400, 5200, 4800, 4200, 4000, 3700, 3600, 3000 ],
 					"whole_tree_data_count" : [ 1 ]
@@ -711,7 +723,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 139.5, 139.5, 45.0, 22.0 ],
+					"patching_rect" : [ 123.5, 189.5, 45.0, 22.0 ],
 					"text" : "0 1 3 7"
 				}
 
@@ -723,7 +735,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 139.5, 217.0, 39.0, 22.0 ],
+					"patching_rect" : [ 123.5, 267.0, 39.0, 22.0 ],
 					"text" : "30 70"
 				}
 
@@ -736,7 +748,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 25.0, 260.0, 24.0, 24.0 ]
+					"patching_rect" : [ 9.0, 310.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -747,7 +759,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 25.0, 345.5, 292.0, 22.0 ],
+					"patching_rect" : [ 9.0, 395.5, 292.0, 22.0 ],
 					"text" : "kcac.generate_pitch_sequence_by_curve_and_pcset"
 				}
 
@@ -840,6 +852,13 @@
 			}
 , 			{
 				"name" : "bach.round.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/Algorithimic_Composition_Library_By_JinwoongKim/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "kcac.convert_pitches_into_nearest_pitch_class.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/Algorithimic_Composition_Library_By_JinwoongKim/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

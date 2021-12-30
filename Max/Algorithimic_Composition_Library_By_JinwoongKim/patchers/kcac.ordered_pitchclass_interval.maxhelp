@@ -40,12 +40,26 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Light",
+					"fontsize" : 24.0,
+					"id" : "obj-2",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 14.916664481163025, 14.66666704416275, 360.0, 35.0 ],
+					"presentation_linecount" : 2,
+					"text" : "kcac.ordered_pitchclass_interval"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-11",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 40.916664481163025, 12.66666704416275, 299.333337783813477, 36.0 ],
+					"patching_rect" : [ 14.916664481163025, 68.66666704416275, 300.0, 36.0 ],
 					"text" : "ordered pitch-class interval(opci): 피치클래스음정에서 방향과 사이즈를 모두 고려한 음정"
 				}
 
@@ -57,7 +71,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 101.333336353302002, 202.000006020069122, 256.000003159046173, 26.0 ],
+					"patching_rect" : [ 75.333336353302002, 258.000006020069122, 256.000003159046173, 26.0 ],
 					"text" : "pitch-class interval 에서 -2는 10과 같다"
 				}
 
@@ -70,7 +84,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 40.916664481163025, 202.000006020069122, 50.0, 22.0 ]
+					"patching_rect" : [ 14.916664481163025, 258.000006020069122, 50.0, 22.0 ]
 				}
 
 			}
@@ -81,7 +95,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 40.916664481163025, 161.000004798173904, 188.333334267139435, 22.0 ],
+					"patching_rect" : [ 14.916664481163025, 217.000004798173904, 188.333334267139435, 22.0 ],
 					"text" : "kcac.ordered_pitchclass_interval"
 				}
 
@@ -93,7 +107,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 210.24999874830246, 97.666667252779007, 29.5, 22.0 ],
+					"patching_rect" : [ 184.24999874830246, 153.666667252779007, 29.5, 22.0 ],
 					"text" : "1"
 				}
 
@@ -105,7 +119,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 241.74999874830246, 97.666667252779007, 29.5, 22.0 ],
+					"patching_rect" : [ 215.74999874830246, 153.666667252779007, 29.5, 22.0 ],
 					"text" : "3"
 				}
 
@@ -117,7 +131,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 40.916664481163025, 97.666667252779007, 29.5, 22.0 ],
+					"patching_rect" : [ 14.916664481163025, 153.666667252779007, 29.5, 22.0 ],
 					"text" : "1"
 				}
 
@@ -129,7 +143,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 72.416664481163025, 97.666667252779007, 29.5, 22.0 ],
+					"patching_rect" : [ 46.416664481163025, 153.666667252779007, 29.5, 22.0 ],
 					"text" : "3"
 				}
 
@@ -180,8 +194,8 @@
 			}
 , 			{
 				"name" : "bach.mod.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../bach/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/Algorithimic_Composition_Library_By_JinwoongKim/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}

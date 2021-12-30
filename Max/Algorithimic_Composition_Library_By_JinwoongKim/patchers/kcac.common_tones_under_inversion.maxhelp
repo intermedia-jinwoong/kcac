@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 928.0, 391.0, 640.0, 480.0 ],
+		"rect" : [ 1664.0, 184.0, 1473.0, 847.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,89 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-18",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 21.0, 61.052626848220825, 443.666667431592941, 34.0 ],
+					"text" : "kcac.common_tones_under_inversion outputs the common tones vector under the \"n\" pitch-class inversion."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Ableton Sans Light",
+					"fontsize" : 24.0,
+					"id" : "obj-4",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 21.0, 16.0, 418.0, 35.0 ],
+					"text" : "kcac.common_tones_under_inversion"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-16",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 423.0, 322.5, 150.0, 20.0 ],
+					"text" : "inversion symmetry"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
+					"border" : 2,
+					"bordercolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"id" : "obj-15",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 423.0, 276.0, 40.0, 40.0 ],
+					"proportion" : 0.5,
+					"shape" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-9",
+					"maxclass" : "bach.tree",
+					"numinlets" : 1,
+					"numoutlets" : 5,
+					"out" : "nnnn",
+					"outlettype" : [ "", "", "", "", "bang" ],
+					"patching_rect" : [ 243.0, 462.5, 188.0, 32.0 ],
+					"versionnumber" : 80100,
+					"whole_tree_data_0000000000" : [ 8, 7, 4, 3 ],
+					"whole_tree_data_count" : [ 1 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-14",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 243.0, 417.0, 104.0, 22.0 ],
+					"text" : "kcac.pcInverse 11"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"angle" : 270.0,
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"border" : 2,
@@ -49,7 +132,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 168.0, 357.5, 40.0, 40.0 ],
+					"patching_rect" : [ 164.0, 458.5, 40.0, 40.0 ],
 					"proportion" : 0.5,
 					"shape" : 1
 				}
@@ -66,7 +149,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 77.0, 357.5, 40.0, 40.0 ],
+					"patching_rect" : [ 73.0, 458.5, 40.0, 40.0 ],
 					"proportion" : 0.5,
 					"shape" : 1
 				}
@@ -83,7 +166,7 @@
 					"numoutlets" : 5,
 					"out" : "nnnn",
 					"outlettype" : [ "", "", "", "", "bang" ],
-					"patching_rect" : [ 25.0, 361.5, 188.0, 32.0 ],
+					"patching_rect" : [ 21.0, 462.5, 188.0, 32.0 ],
 					"versionnumber" : 80100,
 					"whole_tree_data_0000000000" : [ 9, 8, 5, 4 ],
 					"whole_tree_data_count" : [ 1 ]
@@ -97,7 +180,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 25.0, 316.0, 99.0, 22.0 ],
+					"patching_rect" : [ 21.0, 417.0, 99.0, 22.0 ],
 					"text" : "kcac.pcInverse 0"
 				}
 
@@ -113,7 +196,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 137.0, 219.5, 40.0, 40.0 ],
+					"patching_rect" : [ 133.0, 280.5, 40.0, 40.0 ],
 					"proportion" : 0.5,
 					"shape" : 1
 				}
@@ -126,7 +209,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 179.0, 261.5, 150.0, 34.0 ],
+					"patching_rect" : [ 175.0, 322.5, 150.0, 34.0 ],
 					"text" : "inversion under 0 >> common tones 2"
 				}
 
@@ -138,7 +221,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 25.0, 41.0, 164.0, 62.0 ],
+					"patching_rect" : [ 21.0, 115.666667073965073, 164.0, 62.0 ],
 					"text" : "Example 3-11 Using an addition table to calculate common tones under inversion for [3, 4, 7, 8]"
 				}
 
@@ -154,7 +237,7 @@
 					"numoutlets" : 5,
 					"out" : "nnnn",
 					"outlettype" : [ "", "", "", "", "bang" ],
-					"patching_rect" : [ 141.0, 219.5, 321.0, 31.0 ],
+					"patching_rect" : [ 137.0, 280.5, 321.0, 31.0 ],
 					"versionnumber" : 80100,
 					"whole_tree_data_0000000000" : [ 2, 1, 2, 1, 0, 1, 2, 1, 0, 2, 4 ],
 					"whole_tree_data_count" : [ 1 ]
@@ -168,7 +251,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 25.0, 134.0, 45.0, 22.0 ],
+					"patching_rect" : [ 21.0, 195.0, 45.0, 22.0 ],
 					"text" : "3 4 7 8"
 				}
 
@@ -180,7 +263,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 141.0, 179.0, 211.0, 22.0 ],
+					"patching_rect" : [ 137.0, 240.0, 211.0, 22.0 ],
 					"text" : "kcac.common_tones_under_inversion"
 				}
 
@@ -195,7 +278,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
+					"order" : 1,
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
 					"order" : 0,
 					"source" : [ "obj-3", 0 ]
 				}
@@ -204,7 +302,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
-					"order" : 1,
+					"order" : 2,
 					"source" : [ "obj-3", 0 ]
 				}
 

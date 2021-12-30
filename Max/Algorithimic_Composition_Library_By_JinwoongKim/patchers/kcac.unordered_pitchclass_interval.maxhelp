@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1355.0, 524.0, 640.0, 480.0 ],
+		"rect" : [ 1355.0, 524.0, 906.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,13 +40,26 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Light",
+					"fontsize" : 24.0,
+					"id" : "obj-4",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 7.00000011920929, 15.0, 389.0, 35.0 ],
+					"text" : "kcac.unordered_pitchclass_interval"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-15",
 					"maxclass" : "number",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 175.333338558673859, 173.333338499069214, 50.0, 22.0 ]
+					"patching_rect" : [ 178.333338558673859, 229.333338499069214, 50.0, 22.0 ]
 				}
 
 			}
@@ -57,7 +70,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 352.333338558673859, 88.00000262260437, 29.5, 22.0 ],
+					"patching_rect" : [ 355.333338558673859, 144.00000262260437, 29.5, 22.0 ],
 					"text" : "11"
 				}
 
@@ -69,7 +82,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 175.333338558673859, 88.00000262260437, 29.5, 22.0 ],
+					"patching_rect" : [ 178.333338558673859, 144.00000262260437, 29.5, 22.0 ],
 					"text" : "1"
 				}
 
@@ -81,7 +94,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 175.333338558673859, 132.666670620441437, 196.0, 22.0 ],
+					"patching_rect" : [ 178.333338558673859, 188.666670620441437, 196.0, 22.0 ],
 					"text" : "kcac.unordered_pitchclass_interval"
 				}
 
@@ -93,7 +106,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.00000011920929, 259.333341062068939, 150.0, 50.0 ],
+					"patching_rect" : [ 7.00000011920929, 315.333341062068939, 150.0, 50.0 ],
 					"text" : "사이즈는 2 또는 10 모두 맞지만, 작은 숫자를 선호한다."
 				}
 
@@ -105,7 +118,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 4.00000011920929, 60.666668474674225, 58.0, 22.0 ],
+					"patching_rect" : [ 7.00000011920929, 116.666668474674225, 58.0, 22.0 ],
 					"text" : "loadbang"
 				}
 
@@ -117,7 +130,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 4.00000011920929, 100.000002980232239, 31.0, 22.0 ],
+					"patching_rect" : [ 7.00000011920929, 156.000002980232239, 31.0, 22.0 ],
 					"text" : "1 11"
 				}
 
@@ -133,7 +146,7 @@
 					"numoutlets" : 4,
 					"out" : "nn",
 					"outlettype" : [ "", "", "int", "bang" ],
-					"patching_rect" : [ 4.00000011920929, 132.666670620441437, 120.0, 120.0 ],
+					"patching_rect" : [ 7.00000011920929, 188.666670620441437, 120.0, 120.0 ],
 					"points" : [ 1, 11 ],
 					"velocities" : [ 100, 100 ],
 					"versionnumber" : 80100
@@ -147,7 +160,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.00000011920929, 8.000000238418579, 332.666672110557556, 36.0 ],
+					"patching_rect" : [ 7.00000011920929, 64.000000238418579, 332.666672110557556, 36.0 ],
 					"text" : "unordered pitch-class interval(upci): 피치클래스음정에서 사이즈만 모두 고려한 음정"
 				}
 
@@ -198,8 +211,8 @@
 			}
 , 			{
 				"name" : "bach.mod.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../bach/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/Algorithimic_Composition_Library_By_JinwoongKim/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}

@@ -40,12 +40,14 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Light",
+					"fontsize" : 24.0,
 					"id" : "obj-14",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 39.0, 26.5, 191.0, 20.0 ],
-					"text" : "kcac.ordered_pitch_interval"
+					"patching_rect" : [ 16.0, 10.5, 376.0, 35.0 ],
+					"text" : "kcac.unordered_pitch_interval"
 				}
 
 			}
@@ -55,7 +57,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 39.0, 53.0, 306.0, 22.0 ],
+					"patching_rect" : [ 16.0, 56.0, 306.0, 22.0 ],
 					"text" : "피치음정에서 방향과 사이즈를 모두 고려한 음정을 계산"
 				}
 
@@ -67,7 +69,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 175.0, 122.0, 29.5, 22.0 ],
+					"patching_rect" : [ 152.0, 125.0, 29.5, 22.0 ],
 					"text" : "60"
 				}
 
@@ -79,7 +81,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 74.0, 122.0, 29.5, 22.0 ],
+					"patching_rect" : [ 51.0, 125.0, 29.5, 22.0 ],
 					"text" : "67"
 				}
 
@@ -92,7 +94,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 39.0, 227.0, 50.0, 22.0 ]
+					"patching_rect" : [ 16.0, 230.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -103,7 +105,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 211.5, 122.0, 29.5, 22.0 ],
+					"patching_rect" : [ 188.5, 125.0, 29.5, 22.0 ],
 					"text" : "67"
 				}
 
@@ -115,7 +117,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 39.0, 122.0, 29.5, 22.0 ],
+					"patching_rect" : [ 16.0, 125.0, 29.5, 22.0 ],
 					"text" : "60"
 				}
 
@@ -127,7 +129,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 39.0, 178.0, 169.0, 22.0 ],
+					"patching_rect" : [ 16.0, 181.0, 169.0, 22.0 ],
 					"text" : "kcac.unordered_pitch_interval"
 				}
 
