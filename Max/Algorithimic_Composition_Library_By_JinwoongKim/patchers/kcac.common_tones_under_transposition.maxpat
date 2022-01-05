@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 722.0, 414.0, 640.0, 486.0 ],
+		"rect" : [ 1620.0, 834.0, 640.0, 486.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,13 +40,28 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 87.0, 305.0, 110.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"versionnumber" : 80100
+					}
+,
+					"text" : "bach.portal @out p"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-3",
 					"linecount" : 6,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 60.499988381000549, 358.0, 83.0, 89.0 ],
-					"presentation_linecount" : 6,
+					"patching_rect" : [ 60.499988381000549, 404.0, 83.0, 89.0 ],
 					"text" : "number of common tones vector under pitch class transposition"
 				}
 
@@ -128,7 +143,7 @@
 				"box" : 				{
 					"comment" : "pitch class set",
 					"id" : "obj-45",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -141,11 +156,11 @@
 				"box" : 				{
 					"comment" : "number of common tones vector under pitch class transposition",
 					"id" : "obj-47",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 87.0, 310.5, 30.0, 30.0 ]
+					"patching_rect" : [ 87.0, 356.5, 30.0, 30.0 ]
 				}
 
 			}
@@ -182,7 +197,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-47", 0 ],
+					"destination" : [ "obj-6", 0 ],
 					"source" : [ "obj-43", 0 ]
 				}
 
@@ -194,40 +209,14 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "bach.times.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Algorithimic_Composition_Library_By_JinwoongKim/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
 , 			{
-				"name" : "bach.ivec.mxe64",
-				"type" : "mx64"
+				"patchline" : 				{
+					"destination" : [ "obj-47", 0 ],
+					"source" : [ "obj-6", 0 ]
+				}
+
 			}
-, 			{
-				"name" : "bach.nth.mxe64",
-				"type" : "mx64"
-			}
-, 			{
-				"name" : "bach.expr.mxe64",
-				"type" : "mx64"
-			}
-, 			{
-				"name" : "bach.portal.mxe64",
-				"type" : "mx64"
-			}
-, 			{
-				"name" : "bach.args.mxe64",
-				"type" : "mx64"
-			}
-, 			{
-				"name" : "bach.subs.mxe64",
-				"type" : "mx64"
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }

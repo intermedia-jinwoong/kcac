@@ -40,12 +40,24 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 26.0, 5.0, 39.0, 22.0 ],
+					"text" : "dump"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-96",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 445.600008726119995, 237.4000004529953, 150.0, 36.0 ],
+					"patching_rect" : [ 446.600008726119995, 271.4000004529953, 150.0, 36.0 ],
 					"text" : "두 번째 아이디어의 2번 마디로 대체하겠다다"
 				}
 
@@ -56,7 +68,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 445.600008726119995, 197.399999856948853, 150.0, 22.0 ],
+					"patching_rect" : [ 446.600008726119995, 231.399999856948853, 150.0, 22.0 ],
 					"text" : "첫 번째 마디를"
 				}
 
@@ -69,7 +81,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 24.800000667572021, 271.800000011920929, 24.0, 24.0 ]
+					"patching_rect" : [ 25.800000667572021, 305.800000011920929, 24.0, 24.0 ]
 				}
 
 			}
@@ -88,7 +100,7 @@
 					"numvoices" : 1,
 					"out" : "nnnnnnnn",
 					"outlettype" : [ "", "", "", "", "", "", "", "", "bang" ],
-					"patching_rect" : [ 25.0, 310.5, 526.0, 120.0 ],
+					"patching_rect" : [ 26.0, 344.5, 526.0, 120.0 ],
 					"pitcheditrange" : [ "null" ],
 					"stafflines" : [ 5 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -107,7 +119,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 385.30000251531601, 237.4000004529953, 29.5, 22.0 ],
+					"patching_rect" : [ 386.30000251531601, 271.4000004529953, 29.5, 22.0 ],
 					"text" : "1 2"
 				}
 
@@ -119,7 +131,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 385.30000251531601, 197.399999856948853, 29.5, 22.0 ],
+					"patching_rect" : [ 386.30000251531601, 231.399999856948853, 29.5, 22.0 ],
 					"text" : "1 1"
 				}
 
@@ -131,7 +143,7 @@
 					"numinlets" : 10,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 194.0, 254.670363187789917, 129.0, 22.0 ],
+					"patching_rect" : [ 195.0, 288.670363187789917, 129.0, 22.0 ],
 					"text" : "kcac.replace_measure"
 				}
 
@@ -151,7 +163,7 @@
 					"numvoices" : 1,
 					"out" : "nnnnnnnn",
 					"outlettype" : [ "", "", "", "", "", "", "", "", "bang" ],
-					"patching_rect" : [ 409.600005507469177, 14.028169512748718, 330.0, 110.0 ],
+					"patching_rect" : [ 410.600005507469177, 48.028169512748718, 330.0, 110.0 ],
 					"pitcheditrange" : [ "null" ],
 					"stafflines" : [ 5 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -178,7 +190,7 @@
 					"numvoices" : 1,
 					"out" : "nnnnnnnn",
 					"outlettype" : [ "", "", "", "", "", "", "", "", "bang" ],
-					"patching_rect" : [ 25.0, 14.028169512748718, 330.0, 115.333333333333371 ],
+					"patching_rect" : [ 26.0, 48.028169512748718, 330.0, 115.333333333333371 ],
 					"pitcheditrange" : [ "null" ],
 					"stafflines" : [ 5 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -216,6 +228,22 @@
 				"patchline" : 				{
 					"destination" : [ "obj-86", 0 ],
 					"source" : [ "obj-17", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 0 ],
+					"order" : 1,
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-47", 0 ],
+					"order" : 0,
+					"source" : [ "obj-2", 0 ]
 				}
 
 			}
