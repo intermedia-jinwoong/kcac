@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 8,
+			"minor" : 3,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 916.0, 258.0, 944.0, 797.0 ],
+		"rect" : [ 3474.0, 77.0, 1852.0, 969.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -74,7 +74,7 @@
 					"outlettype" : [ "", "", "", "", "bang" ],
 					"patching_rect" : [ 3.999997317790985, 195.5, 200.0, 120.0 ],
 					"versionnumber" : 80100,
-					"whole_tree_data_0000000000" : [ 0, 1, 6, 7 ],
+					"whole_tree_data_0000000000" : [ 8, 9, 2, 3 ],
 					"whole_tree_data_count" : [ 1 ]
 				}
 
@@ -87,7 +87,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 3.999997317790985, 118.0, 29.5, 22.0 ],
-					"text" : "0 1"
+					"text" : "8"
 				}
 
 			}
@@ -133,25 +133,23 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "kcac.transpositional_combination_tetrachord.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Algorithimic_Composition_Library_By_JinwoongKim/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "kcac.transpose_pitchclass.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Algorithimic_Composition_Library_By_JinwoongKim/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "bach.+.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
 				"patcherrelativepath" : "../../bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "bach.args.mxe64",
+				"type" : "mx64"
+			}
+, 			{
+				"name" : "bach.expr.mxe64",
+				"type" : "mx64"
+			}
+, 			{
+				"name" : "bach.join.mxe64",
+				"type" : "mx64"
 			}
 , 			{
 				"name" : "bach.mod.maxpat",
@@ -161,24 +159,26 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "bach.expr.mxe64",
-				"type" : "mx64"
-			}
-, 			{
 				"name" : "bach.portal.mxe64",
-				"type" : "mx64"
-			}
-, 			{
-				"name" : "bach.args.mxe64",
-				"type" : "mx64"
-			}
-, 			{
-				"name" : "bach.join.mxe64",
 				"type" : "mx64"
 			}
 , 			{
 				"name" : "bach.tree.mxe64",
 				"type" : "mx64"
+			}
+, 			{
+				"name" : "kcac.transpose_pitchclass.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/kcac/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "kcac.transpositional_combination_tetrachord.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/kcac/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
 			}
  ],
 		"autosave" : 0

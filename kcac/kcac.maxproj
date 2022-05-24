@@ -2,8 +2,8 @@
 	"name" : "kcac",
 	"version" : 1,
 	"creationdate" : 3724498859,
-	"modificationdate" : 3734590439,
-	"viewrect" : [ 4654.0, 119.0, 471.0, 500.0 ],
+	"modificationdate" : 3736201009,
+	"viewrect" : [ 4868.0, 65.0, 471.0, 980.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 0,
@@ -226,16 +226,6 @@
 				"local" : 1
 			}
 ,
-			"kcac.tranpositional_combination_tetrachord.maxhelp" : 			{
-				"kind" : "helpfile",
-				"local" : 1
-			}
-,
-			"kcac.tranpositional_combination_tetrachord.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
 			"kcac.transpose_pitchclass.maxhelp" : 			{
 				"kind" : "helpfile",
 				"local" : 1
@@ -262,6 +252,16 @@
 			}
 ,
 			"kcac.transpositional_symmetry.maxhelp" : 			{
+				"kind" : "helpfile",
+				"local" : 1
+			}
+,
+			"kcac.pick_elements_by_contour_segment.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"kcac.pick_elements_by_contour_segment.maxhelp" : 			{
 				"kind" : "helpfile",
 				"local" : 1
 			}
