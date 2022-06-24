@@ -2,7 +2,7 @@
 	"name" : "kcac",
 	"version" : 1,
 	"creationdate" : 3724498859,
-	"modificationdate" : 3736201009,
+	"modificationdate" : 3738878898,
 	"viewrect" : [ 4868.0, 65.0, 471.0, 980.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -263,6 +263,14 @@
 ,
 			"kcac.pick_elements_by_contour_segment.maxhelp" : 			{
 				"kind" : "helpfile",
+				"local" : 1
+			}
+
+		}
+,
+		"code" : 		{
+			"js_study.js" : 			{
+				"kind" : "javascript",
 				"local" : 1
 			}
 
