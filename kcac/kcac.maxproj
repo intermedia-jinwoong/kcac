@@ -2,8 +2,8 @@
 	"name" : "kcac",
 	"version" : 1,
 	"creationdate" : 3724498859,
-	"modificationdate" : 3738878898,
-	"viewrect" : [ 4868.0, 65.0, 471.0, 980.0 ],
+	"modificationdate" : 3742852217,
+	"viewrect" : [ 4941.0, 80.0, 403.0, 821.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 0,
@@ -270,6 +270,11 @@
 ,
 		"code" : 		{
 			"js_study.js" : 			{
+				"kind" : "javascript",
+				"local" : 1
+			}
+,
+			"unrestricted_rhythm.js" : 			{
 				"kind" : "javascript",
 				"local" : 1
 			}

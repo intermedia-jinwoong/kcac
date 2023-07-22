@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 8,
+			"minor" : 5,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 100.0, 100.0, 1077.0, 694.0 ],
+		"rect" : [ 3886.0, 257.0, 591.0, 460.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -74,8 +74,8 @@
 					"out" : "nnnn",
 					"outlettype" : [ "", "", "", "", "bang" ],
 					"patching_rect" : [ 24.666667401790619, 292.000008702278137, 235.333333849906921, 98.666664242744446 ],
-					"versionnumber" : 80100,
-					"whole_tree_data_0000000000" : [ "1/2", "1/2" ],
+					"versionnumber" : 80300,
+					"whole_tree_data_0000000000" : [ "1/2", "1/4" ],
 					"whole_tree_data_count" : [ 1 ]
 				}
 
@@ -308,25 +308,19 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "kcac.rhythm.partition.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Algorithimic_Composition_Library_By_JinwoongKim/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "bach.sum.maxpat",
+				"name" : "bach.abs.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
 				"patcherrelativepath" : "../../bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "bach.filter.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../bach/patchers",
-				"type" : "JSON",
-				"implicit" : 1
+				"name" : "bach.args.mxe64",
+				"type" : "mx64"
+			}
+, 			{
+				"name" : "bach.contains.mxe64",
+				"type" : "mx64"
 			}
 , 			{
 				"name" : "bach.div.maxpat",
@@ -336,7 +330,50 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "bach.abs.maxpat",
+				"name" : "bach.eq.mxe64",
+				"type" : "mx64"
+			}
+, 			{
+				"name" : "bach.expr.mxe64",
+				"type" : "mx64"
+			}
+, 			{
+				"name" : "bach.filter.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../bach/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bach.is.mxe64",
+				"type" : "mx64"
+			}
+, 			{
+				"name" : "bach.iter.mxe64",
+				"type" : "mx64"
+			}
+, 			{
+				"name" : "bach.neq.mxe64",
+				"type" : "mx64"
+			}
+, 			{
+				"name" : "bach.nth.mxe64",
+				"type" : "mx64"
+			}
+, 			{
+				"name" : "bach.pick.mxe64",
+				"type" : "mx64"
+			}
+, 			{
+				"name" : "bach.portal.mxe64",
+				"type" : "mx64"
+			}
+, 			{
+				"name" : "bach.reg.mxe64",
+				"type" : "mx64"
+			}
+, 			{
+				"name" : "bach.sum.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
 				"patcherrelativepath" : "../../bach/patchers",
 				"type" : "JSON",
@@ -350,52 +387,15 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "bach.args.mxe64",
-				"type" : "mx64"
-			}
-, 			{
-				"name" : "bach.iter.mxe64",
-				"type" : "mx64"
-			}
-, 			{
-				"name" : "bach.expr.mxe64",
-				"type" : "mx64"
-			}
-, 			{
-				"name" : "bach.reg.mxe64",
-				"type" : "mx64"
-			}
-, 			{
-				"name" : "bach.is.mxe64",
-				"type" : "mx64"
-			}
-, 			{
-				"name" : "bach.portal.mxe64",
-				"type" : "mx64"
-			}
-, 			{
-				"name" : "bach.neq.mxe64",
-				"type" : "mx64"
-			}
-, 			{
-				"name" : "bach.eq.mxe64",
-				"type" : "mx64"
-			}
-, 			{
-				"name" : "bach.pick.mxe64",
-				"type" : "mx64"
-			}
-, 			{
-				"name" : "bach.contains.mxe64",
-				"type" : "mx64"
-			}
-, 			{
-				"name" : "bach.nth.mxe64",
-				"type" : "mx64"
-			}
-, 			{
 				"name" : "bach.tree.mxe64",
 				"type" : "mx64"
+			}
+, 			{
+				"name" : "kcac.rhythm.partition.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/kcac/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
 			}
  ],
 		"autosave" : 0

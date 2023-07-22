@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 3,
-			"revision" : 1,
+			"minor" : 5,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 3535.0, 141.0, 1473.0, 847.0 ],
+		"rect" : [ 2119.0, 765.0, 710.0, 519.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -115,8 +115,8 @@
 					"out" : "nnnn",
 					"outlettype" : [ "", "", "", "", "bang" ],
 					"patching_rect" : [ 243.0, 462.5, 188.0, 32.0 ],
-					"versionnumber" : 80100,
-					"whole_tree_data_0000000000" : [ 1, 0, 9, 8 ],
+					"versionnumber" : 80300,
+					"whole_tree_data_0000000000" : [ 8, 7, 4, 3 ],
 					"whole_tree_data_count" : [ 1 ]
 				}
 
@@ -179,7 +179,7 @@
 					"out" : "nnnn",
 					"outlettype" : [ "", "", "", "", "bang" ],
 					"patching_rect" : [ 21.0, 462.5, 188.0, 32.0 ],
-					"versionnumber" : 80100,
+					"versionnumber" : 80300,
 					"whole_tree_data_0000000000" : [ 9, 8, 5, 4 ],
 					"whole_tree_data_count" : [ 1 ]
 				}
@@ -250,8 +250,8 @@
 					"out" : "nnnn",
 					"outlettype" : [ "", "", "", "", "bang" ],
 					"patching_rect" : [ 137.0, 280.5, 321.0, 31.0 ],
-					"versionnumber" : 80100,
-					"whole_tree_data_0000000000" : [ 2, 0, 1, 2, 1, 0, 1, 2, 1, 0, 2 ],
+					"versionnumber" : 80300,
+					"whole_tree_data_0000000000" : [ 2, 0, 1, 2, 1, 0, 1, 2, 1, 0, 2, 4 ],
 					"whole_tree_data_count" : [ 1 ]
 				}
 
@@ -336,8 +336,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "bach.+.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/kcac/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -359,8 +359,8 @@
 			}
 , 			{
 				"name" : "bach.mod.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/kcac/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -377,23 +377,16 @@
 				"type" : "mx64"
 			}
 , 			{
-				"name" : "bach.remainder.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/kcac/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "bach.repeat.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/kcac/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bach.rminus.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/kcac/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
