@@ -2,8 +2,8 @@
 	"name" : "kcac",
 	"version" : 1,
 	"creationdate" : 3724498859,
-	"modificationdate" : 3742852217,
-	"viewrect" : [ 4941.0, 80.0, 403.0, 821.0 ],
+	"modificationdate" : 3773103089,
+	"viewrect" : [ 4942.0, 163.0, 403.0, 821.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 0,
@@ -265,6 +265,16 @@
 				"kind" : "helpfile",
 				"local" : 1
 			}
+,
+			"temp.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"kcac.rhythm.notetorest.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
 
 		}
 ,
@@ -297,5 +307,6 @@
 	"devpathtype" : 0,
 	"devpath" : ".",
 	"sortmode" : 0,
-	"viewmode" : 0
+	"viewmode" : 0,
+	"includepackages" : 0
 }

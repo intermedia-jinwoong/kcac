@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 8,
+			"minor" : 5,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -40,6 +40,22 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 19.0, 172.0, 110.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"versionnumber" : 80300
+					}
+,
+					"text" : "bach.portal @out p"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-12",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -57,7 +73,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 19.0, 74.0, 72.0, 22.0 ],
+					"patching_rect" : [ 19.0, 74.0, 77.0, 22.0 ],
 					"text" : "bach.+ #1"
 				}
 
@@ -66,7 +82,7 @@
 				"box" : 				{
 					"comment" : "pitch class(es)",
 					"id" : "obj-15",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -79,7 +95,7 @@
 				"box" : 				{
 					"comment" : "(int)transpositional index",
 					"id" : "obj-16",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -92,11 +108,11 @@
 				"box" : 				{
 					"comment" : "tranposed pitch class(es)",
 					"id" : "obj-17",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 19.0, 189.0, 30.0, 30.0 ]
+					"patching_rect" : [ 19.0, 220.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -104,6 +120,13 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-17", 0 ],
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-12", 0 ]
 				}
 
@@ -129,35 +152,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "bach.+.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../bach/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "bach.mod.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../bach/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "bach.expr.mxe64",
-				"type" : "mx64"
-			}
-, 			{
-				"name" : "bach.portal.mxe64",
-				"type" : "mx64"
-			}
-, 			{
-				"name" : "bach.args.mxe64",
-				"type" : "mx64"
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
