@@ -2,8 +2,8 @@
 	"name" : "kcac",
 	"version" : 1,
 	"creationdate" : 3724498859,
-	"modificationdate" : 3773103089,
-	"viewrect" : [ 4942.0, 163.0, 403.0, 821.0 ],
+	"modificationdate" : 3779798228,
+	"viewrect" : [ 32.0, 353.0, 403.0, 795.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 0,
@@ -63,6 +63,11 @@
 ,
 			"kcac.convert_pitches_into_nearest_pitch_class.maxhelp" : 			{
 				"kind" : "helpfile",
+				"local" : 1
+			}
+,
+			"kcac.ordered_pitchclass_interval.maxpat" : 			{
+				"kind" : "patcher",
 				"local" : 1
 			}
 ,
@@ -158,11 +163,6 @@
 ,
 			"kcac.ordered_pitchclass_interval.maxhelp" : 			{
 				"kind" : "helpfile",
-				"local" : 1
-			}
-,
-			"kcac.ordered_pitchclass_interval.maxpat" : 			{
-				"kind" : "patcher",
 				"local" : 1
 			}
 ,
@@ -273,6 +273,31 @@
 ,
 			"kcac.rhythm.notetorest.maxpat" : 			{
 				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"kcac.dynamics.accent.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"kcac.dynamics.accent.maxhelp" : 			{
+				"kind" : "helpfile",
+				"local" : 1
+			}
+,
+			"kcac.combination_cycle.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"kcac.subset.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"kcac.subset.maxhelp" : 			{
+				"kind" : "helpfile",
 				"local" : 1
 			}
 
